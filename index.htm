@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transactions</title>
+  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" href="accordion.css">
+</head>
+<body>
+  <div id="app">
+    <div class="content">
+      <h1 class="title">Your transactions</h1>
+      <hr/>
+      <section class="section">
+        <h3>Click on the transaction to see details</h3>
+        <accordion id="transactions" :content="example1"></accordion>
+      </section>
+    </div>
+  </div>
+  <script src="vueBeans.js"></script>
+</body>
+</html>
